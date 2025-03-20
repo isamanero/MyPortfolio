@@ -8,3 +8,6 @@ Además, he profundizado en el uso de QGIS 🗺️ para la gestión ambiental �
 
 ✅ Cada proyecto refleja mi capacidad para transformar datos en información valiosa y tomar decisiones basadas en evidencia.
 
+
+💻Contacto: isaw911@gmail.com
+📌Mi LinkedIN: [Ver mi perfil](https://www.linkedin.com/in/isabel-ma%C3%B1ero-dominguez-222498160/)
