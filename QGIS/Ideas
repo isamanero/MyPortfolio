@@ -1,0 +1,2 @@
+Quiero hacer un proyecto de un mapa de humedales en Andalucía.
+Hacer un sistema con Selenium, que me recorra una página y recoja datos de 50 peces para crearme un data frame, después ese data frame, pasarlo a sql.
