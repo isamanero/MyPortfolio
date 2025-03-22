@@ -8,6 +8,16 @@ Además, he profundizado en el uso de QGIS 🗺️ para la gestión ambiental �
 
 ✅ Cada proyecto refleja mi capacidad para transformar datos en información valiosa y tomar decisiones basadas en evidencia.
 
+Podéis encontrar diferentes carpetas:
+
+📁Data_Analytics:
+  - 📂 Miniproyecto-modulos-tiburones: Esta carpeta contiene un mini proyecto, que engloba diferentes archivos, desde Webscarping hasta la formación de data frame a partir de la misma para hacer un estudio a dicha           base datos.
+  - 📋 Iniciación_python_gestion_tienda : Proyecto de creación de una clase con lenguaje python para la gestión de una tienda de ropa.
+  - 📋Proyecto_reservas: Proyecto con python de un sistema de reserva de un restaurante + mini proyecto de clase para gestionar la carta.
+  - 📋Pruebas_DataM3: Archivo de pruebas sin definir.
+📁QGIS:
+  - 📋Proyecto_mapa_final: Representación gráfica de Mapa en A3 resultado de un proyecto final.
+  - 📋Proyecto: Inicio de proyecto, aún por definir.
 
 💻Contacto: isaw911@gmail.com
 📌Mi LinkedIN: [Ver mi perfil](https://www.linkedin.com/in/isabel-ma%C3%B1ero-dominguez-222498160/)
