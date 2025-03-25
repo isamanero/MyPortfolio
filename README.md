@@ -15,6 +15,7 @@ Podéis encontrar diferentes carpetas:
   - 📋 Iniciación_python_gestion_tienda : Proyecto de creación de una clase con lenguaje python para la gestión de una tienda de ropa.
   - 📋Proyecto_reservas: Proyecto con python de un sistema de reserva de un restaurante + mini proyecto de clase para gestionar la carta.
   - 📋Pruebas_DataM3: Archivo de pruebas sin definir.
+  - 📋Limpieza_datos: Archivo de limpieza de un dataframe ficticio.
 
     
 📁QGIS:
