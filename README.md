@@ -13,6 +13,7 @@ Podéis encontrar diferentes carpetas:
 📁Data_Analytics:
   - 📂 Miniproyecto-modulos-tiburones: Esta carpeta contiene un mini proyecto, que engloba diferentes archivos, desde Webscarping hasta la formación de data frame a partir de la misma para hacer un estudio a dicha base datos.
   - 📋 Iniciación_python_gestion_tienda : Proyecto de creación de una clase con lenguaje python para la gestión de una tienda de ropa.
+  - 📋Primeros_pasos_EDA_ETL.ipynb : Muestra de limpieza de un DataFrame pequeño.
 
 📁QGIS:
   - 📋Proyecto_mapa_final: Representación gráfica de Mapa en A3 resultado de un proyecto final.
