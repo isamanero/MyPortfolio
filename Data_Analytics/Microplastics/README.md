@@ -144,7 +144,3 @@ Aunque los microplásticos son una amenaza significativa, no se encontró una co
 👩‍💻 Autoras:
 
 Isabel Mañero y Beatriz Mijancos
-
-🌱 Ambientalistas | Analistas de datos | Educadoras marinas
-
-📬 Contacto: medioambiente.bisa@ejemplo.com
