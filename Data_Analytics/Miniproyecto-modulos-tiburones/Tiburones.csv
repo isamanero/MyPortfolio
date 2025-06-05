@@ -1,0 +1,32 @@
+Nombre_cientifico,Familia,Genero,Status_IUCN,Tamaño_medio,Descriptor,Año,Sociabilidad
+Alopias pelagicus,alopiidae,Alopias,EN,276 ,Nakamura,1935,solitario
+Atelomycterus marmoratus,Scyliorhinidae,Atelomycterus,NT,55 ,Bennet,1830,solitario
+Carcharhinus amblyrhynchos,Carcharhinidae,Carcharhinus,EN,170 ,Bleeker,1856,solitario
+Carcharhinus falciformis,Carcharhinidae,Carcharhinus,VU,200 ,Müller & Henle,1839,solitario
+Carcharhinus leucas,Carcharhinidae,Carcharhinus,VU,190 ,Müller & Henle,1839,solitario
+Carcharhinus melanopterus,Carcharhinidae,Carcharhinus,VU,100 ,Quoy & Gaimard,1824,solitario
+carcharhinus plumbeus,Carcharhinidae,Carcharhinus,EN,200 ,Nardo,1827,solitario
+Carcharias taurus,Carcharhinidae,Carcharias,CR,220 ,Rafinesque,1810,solitario
+Carcharodon carcharias,Lamnidae,Carcharodon,VU,450 ,Carl von Linné,1758,solitario
+Cetorhinus maximus,Cetorhinidae,Cetorhinus,EN,1000 ,Johan Ernst Gunnerus,1765,grupos o en solitario
+Chiloscyllium griseum,Hemiscylliidae,Chiloscyllium,VU,70 ,Müller & Henle,1838,solitario
+Chiloscyllium punctatum,Hemiscylliidae,Chiloscyllium,NT,120 ,Müller & Henle,1838,solitario
+Galeocerdo cuvier,Carcharhinidae,Galeocerdo,NT,300 ,Péron & Le Sueur,1822,solitario
+Ginglymostoma cirratum,Ginglymostomatidae,Ginglymostoma,VU,240 ,Bonnaterre,1788,solitario
+Hemiscyllium Ocellatum,Hemiscylliidae,Hemiscyllium,LC,90 ,Bonnaterre,1788,solitario
+Isurus oxyrinchus,Lamnidae,Isurus,EN,270 ,Rafinesque,1810,solitario
+Mustelus mosis,Triakidae,Mustelus,NT,100 ,Hemprich & Ehrenberg,1899,solitario
+Mustelus mustelus,Triakidae,Mustelus,EN,100 ,Linnaeus,1758,solitario
+Negaprion brevirostris,Carcharhinidae,Negaprion,VU,240 ,Poey,1868,pequeños grupos
+Orectolobus hutchinsi,Orectolobidae,Orectolobus,LC,240 ,"Last, Chidlow & Compagno",2006,solitario
+Poroderma africanum,Scyliorhinidae,Poroderma,LC,93 ,Gmelin,1789,solitario
+Prionace glauca,Carcharhinidae,Prionace,NT,335 ,Linnaeus,1758,solitario
+Pseudoginglymostoma brevicaudatum,Ginglymostomatidae,Pseudoginglymostoma,CR,60 ,Günther,1867,solitario
+Rhincodon typus,Rhincodontidae,Rhincodon,EN,1000 ,Smith,1828,grupos o en solitario
+Scyliorhinus canicula,Scyliorhinidae,Scyliorhinus,LC,60 ,Linnaeus,1758,grupos o en solitario
+Scyliorhinus stellaris,Scyliorhinidae,Scyliorhinus,VU,100 ,Linnaeus,1758,grupos o en solitario
+Sphyrna lewini,Carcharhinidae,Sphyrna,CR,300 ,Griffith & Smith,1834,grupos o en solitario
+Sphyrna mokarran,Carcharhinidae,Sphyrna,CR,300 ,Rüppell,1837,grupos o en solitario
+Squatina albipunctata,Squatinidae,Squatina,VU,100 ,Last &White,2008,grupos o en solitario
+Squatina squatina,Squatinidae,Squatina,CR,150 ,Linnaeus,1758,grupos o en solitario
+Stegostoma tigrinum,Stegostomatidae,Stegostoma,EN,250 ,Forster,1781,grupos o en solitario

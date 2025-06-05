@@ -1,7 +1,0 @@
-📁 Arrecife:
-	- Contiene el archivo "realistic_ocean_climate_dataset.csv" correspondiente al dataset base de 		datos de arrecife. Obtenido en :https://www.kaggle.com/datasets/atharvasoundankar/shifting-seas-	ocean-climate-and-marine-life-dataset
-
-📁 Marine_micrplastics:
-	- Contiene csv de pruebas, y de procesos. Siendo "Marine_Microplastics.csv el dataset base 	obtenido en : https://www.kaggle.com/datasets/william2020/marine-microplastics
-
-📁 Microplastic_por_zonas: 3 csv, obtenidos de https://www.ncei.noaa.gov/ para completar el estudio de 	arrecifes.
