@@ -1,19 +1,11 @@
-### 🌊 Microplásticos y Arrecifes de Coral: Un Análisis Ambiental con Power BI:
+### 🌊 Contaminación por Microplásticos: Implicaciones para la Conservación de Arrecifes:
+
+Este proyecto se desarrolló en dos fases complementarias. La fase inicial surgió como una iniciativa personal en la que analicé muestras de microplásticos utilizando una base de datos global, elaborando dos informes técnicos centrados en la limpieza de datos y el análisis de resultados. En la segunda fase, incorporé herramientas de análisis geoespacial aplicando mis conocimientos de QGIS, así como las librerías Geopandas y Shapely en Python para enriquecer la precisión espacial de los datos. Esta evolución dio lugar al proyecto final del bootcamp de Adalab, desarrollado en colaboración con mi compañera Beatriz Mijancos.
 
 ### 📂 Proyecto:
-Este repositorio contiene un proyecto de análisis exploratorio y visualización de datos sobre la distribución de microplásticos en océanos y su posible relación con la salud de los arrecifes de coral, implementado con Power BI.
+En este proyecto se realiza un análisis de datos con el objetivo de evaluar la distribución de microplásticos en distintos océanos y estudiar su posible relación con el estado de salud de los arrecifes de coral.
 
-Se trata de una investigación descriptiva y correlacional que aprovecha datos estructurados de múltiples fuentes para generar insights ambientales visualmente interpretables.
-
-### 📌 Descripción del Proyecto:
-
-Este proyecto forma parte de una iniciativa medioambiental orientada a analizar la presencia de microplásticos en los océanos y su posible relación con la salud de los arrecifes de coral.
-
-A través de un análisis de datos procedentes de fuentes globales — ONGs, centros de investigación marina y plataformas colaborativas —, visualizamos patrones, correlaciones y hallazgos clave mediante Power BI, facilitando así la toma de decisiones y el diseño de estrategias de conservación.
-
-### 🎯 Objetivo:
-
-Evaluar la distribución geográfica y densidad de microplásticos en los principales océanos del planeta, y analizar su posible impacto sobre los ecosistemas coralinos, incluyendo:
+Evaluando la distribución geográfica y densidad de microplásticos en los principales océanos del planeta, y analizar su posible impacto sobre los ecosistemas coralinos, incluyendo:
 
 - Diversidad marina observada.
 
@@ -41,7 +33,7 @@ Evaluar la distribución geográfica y densidad de microplásticos en los princi
 
 3. Métodos de muestreo por océano:
 
-- Visualización comparativa de técnicas: redes de arrastre, trampas, muestreo manual.
+- Visualización comparativa de técnicas: Neuston net, Hand picking, Manta net...
 
 - Análisis de cobertura y precisión de datos.
 
@@ -101,19 +93,13 @@ Aunque los microplásticos son una amenaza significativa, no se encontró una co
 
 - Integrar ETL para limpieza automática
 
-- Incluir nuevas variables: salinidad, profundidad, corriente media
+- Incluir nuevas variables de otras fuentes de datos, o estudios futuros: salinidad, profundidad, corriente media
 
 📈 Mejora analítica:
 
 - Entrenar modelos predictivos con ML
 
 - Estimar riesgo de blanqueamiento coralino por zona
-
-🧪 Validación científica:
-
-- Colaboración con biólogos marinos y oceanógrafos
-
-- Validación cruzada con estudios de campo
 
 🧭 Concienciación:
 
@@ -139,12 +125,5 @@ Aunque los microplásticos son una amenaza significativa, no se encontró una co
 
 🧪 Documentación científica complementaria
 
-📁 Repositorio de datos y scripts
-
 👩‍💻 Autoras:
-
 Isabel Mañero y Beatriz Mijancos
-
-🌱 Ambientalistas | Analistas de datos | Educadoras marinas
-
-📬 Contacto: medioambiente.bisa@ejemplo.com
