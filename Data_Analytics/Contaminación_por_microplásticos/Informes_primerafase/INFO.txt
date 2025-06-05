@@ -1,0 +1,1 @@
+En esta primera fase no se inculye el uso de GeoPandas, ni de Shapely...es un EDA INICIAL sólo sobre la base de datos sobre microplásticos.
