@@ -8,7 +8,7 @@
 
 📈✨Power BI: Visualización interactiva y análisis exploratorio de datos para la presentación de resultados.
 
-🪸 PRODUCTO FINAL--> Proyecto_Microplasticos_Corales.pbix 🪸
+**🪸 PROYECTO FINAL--> Proyecto_Microplasticos_Corales.pbix 🪸**
 
 ### 🌊 Contaminación por Microplásticos: Implicaciones para la Conservación de Arrecifes:
 
