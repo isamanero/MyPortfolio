@@ -1,6 +1,6 @@
 ## 🌍 Bienvenido/a a mi portfolio de Análisis de Datos y SIG 📊
 
-Este portafolio reúne una selección de proyectos desarrollados durante mi formación como Analista de Datos y Especialista en SIG y Teledetección. A lo largo de mi aprendizaje, he adquirido y fortalecido habilidades en manipulación, limpieza, visualización y análisis de datos, utilizando herramientas como Python 🐍, MySQL 🗄️, Excel 📑, Power BI 📊 y Tableau 📈.
+Este portafolio reúne una selección de proyectos desarrollados durante y tras mi formación como Analista de Datos y Especialista en SIG y Teledetección. A lo largo de mi aprendizaje, he adquirido y fortalecido habilidades en manipulación, limpieza, visualización y análisis de datos, utilizando herramientas como Python 🐍, MySQL 🗄️, Excel 📑, Power BI 📊 y Tableau 📈.
 
 Manejo de MySQL, VSCode, conexiones terminal-gestión Github, Jupyter...
 
