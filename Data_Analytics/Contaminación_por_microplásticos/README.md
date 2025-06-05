@@ -8,6 +8,8 @@
 
 📈✨Power BI: Visualización interactiva y análisis exploratorio de datos para la presentación de resultados.
 
+🪸 PRODUCTO FINAL--> Proyecto_Microplasticos_Corales.pbix 🪸
+
 ### 🌊 Contaminación por Microplásticos: Implicaciones para la Conservación de Arrecifes:
 
 Este proyecto se desarrolló en dos fases complementarias. La fase inicial surgió como una iniciativa personal en la que analicé muestras de microplásticos utilizando una base de datos global, elaborando dos informes técnicos centrados en la limpieza de datos y el análisis de resultados. En la segunda fase, incorporé herramientas de análisis geoespacial aplicando mis conocimientos de QGIS, así como las librerías Geopandas y Shapely en Python, con capas.shp de QGIS para enriquecer la precisión espacial de los datos. Esta evolución dio lugar al proyecto final del bootcamp de Adalab, desarrollado en colaboración con mi compañera Beatriz Mijancos.
