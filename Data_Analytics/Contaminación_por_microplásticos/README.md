@@ -1,12 +1,12 @@
-Tecnologías y herramientas utilizadas:
+📊Tecnologías y herramientas utilizadas:
 
-Python: Tratamiento y limpieza de datos, análisis estadístico y procesamiento con librerías como Geopandas y Shapely.
+🐍Python: Tratamiento y limpieza de datos, análisis estadístico y procesamiento con librerías como Geopandas y Shapely.
 
-QGIS: Visualización inicial de capas geoespaciales y preparación de datos geográficos.
+🌍QGIS: Visualización inicial de capas geoespaciales y preparación de datos geográficos.
 
-MySQL: Consultas puntuales para extracción de datos, utilizadas en informes técnicos (ver carpeta Informes_primerafase).
+💻MySQL: Consultas puntuales para extracción de datos, utilizadas en informes técnicos (ver carpeta Informes_primerafase).
 
-Power BI: Visualización interactiva y análisis exploratorio de datos para la presentación de resultados.
+📈✨Power BI: Visualización interactiva y análisis exploratorio de datos para la presentación de resultados.
 
 ### 🌊 Contaminación por Microplásticos: Implicaciones para la Conservación de Arrecifes:
 
