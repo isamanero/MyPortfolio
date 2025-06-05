@@ -1,6 +1,8 @@
+Tecnologías y herramientas utilizadas: MySQL, Python, Power BI, QGIS.
+
 ### 🌊 Contaminación por Microplásticos: Implicaciones para la Conservación de Arrecifes:
 
-Este proyecto se desarrolló en dos fases complementarias. La fase inicial surgió como una iniciativa personal en la que analicé muestras de microplásticos utilizando una base de datos global, elaborando dos informes técnicos centrados en la limpieza de datos y el análisis de resultados. En la segunda fase, incorporé herramientas de análisis geoespacial aplicando mis conocimientos de QGIS, así como las librerías Geopandas y Shapely en Python para enriquecer la precisión espacial de los datos. Esta evolución dio lugar al proyecto final del bootcamp de Adalab, desarrollado en colaboración con mi compañera Beatriz Mijancos.
+Este proyecto se desarrolló en dos fases complementarias. La fase inicial surgió como una iniciativa personal en la que analicé muestras de microplásticos utilizando una base de datos global, elaborando dos informes técnicos centrados en la limpieza de datos y el análisis de resultados. En la segunda fase, incorporé herramientas de análisis geoespacial aplicando mis conocimientos de QGIS, así como las librerías Geopandas y Shapely en Python, con capas.shp de QGIS para enriquecer la precisión espacial de los datos. Esta evolución dio lugar al proyecto final del bootcamp de Adalab, desarrollado en colaboración con mi compañera Beatriz Mijancos.
 
 ### 📂 Proyecto:
 En este proyecto se realiza un análisis de datos con el objetivo de evaluar la distribución de microplásticos en distintos océanos y estudiar su posible relación con el estado de salud de los arrecifes de coral.
