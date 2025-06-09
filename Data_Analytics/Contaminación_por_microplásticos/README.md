@@ -10,11 +10,23 @@
 
 **🪸 [PROYECTO FINAL--> Proyecto_Microplasticos_Corales.pbix 🪸](https://github.com/isamanero/MyPortfolio/blob/main/Data_Analytics/Contaminaci%C3%B3n_por_micropl%C3%A1sticos/Proyecto_Microplasticos_Corales.pbix)**
 
-### 🌊 Contaminación por Microplásticos: Implicaciones para la Conservación de Arrecifes:
+# 🌊 Contaminación por Microplásticos: Implicaciones para la Conservación de Arrecifes:
 
 Este proyecto se desarrolló en dos fases complementarias. La fase inicial surgió como una iniciativa personal en la que analicé muestras de microplásticos utilizando una base de datos global, elaborando dos informes técnicos centrados en la limpieza de datos y el análisis de resultados. En la segunda fase, incorporé herramientas de análisis geoespacial aplicando mis conocimientos de QGIS, así como las librerías Geopandas y Shapely en Python, con capas.shp de QGIS para enriquecer la precisión espacial de los datos. Esta evolución dio lugar al proyecto final del bootcamp de Adalab, desarrollado en colaboración con mi compañera Beatriz Mijancos.
 
-### 📂 Proyecto:
+## 📂Estructura del proyecto:
+  -->📁 EDAs : Contiene 6 archivos .ipynb correspondiente al análisis EDA
+                de las bases de datos del proyecto
+  -->📁 Informes_primerafase: Informes beta, correspondientes a la primera
+                fase del proyecto, que incluye únicamente la base de datos
+                de microplásticos.
+  -->📁 files : Bases de datos durante en proceso, subdivididas en clean y
+                y transition_files.
+  -->📄 Proyecto_Microplasticos_Corales.pbix --> Este archivo contiene un
+                informe interactivo desarrollado en Power BI
+  -->📄 Referencias.txt
+  
+## Proyecto:
 En este proyecto se realiza un análisis de datos con el objetivo de evaluar la distribución de microplásticos en distintos océanos y estudiar su posible relación con el estado de salud de los arrecifes de coral.
 
 Evaluando la distribución geográfica y densidad de microplásticos en los principales océanos del planeta, y analizar su posible impacto sobre los ecosistemas coralinos, incluyendo:
