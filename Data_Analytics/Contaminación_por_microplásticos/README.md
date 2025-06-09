@@ -57,5 +57,7 @@ Evaluando la distribución geográfica y densidad de microplásticos en los prin
 - Para visualizar y editar el proyecto:
   Power BI Desktop (versión 2023 o superior) y software como Visual Studio Code, para la parte más técnica
 
+### 🧪 Este proyecto aún tiene mucho potencial por desarrollar, sigo explorando este terreno, y me encantaría seguir mejorando y ampliando el análisis
+
 👩‍💻 Autoras:
 Isabel Mañero y Beatriz Mijancos
