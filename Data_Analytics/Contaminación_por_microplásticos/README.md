@@ -16,14 +16,18 @@ Este proyecto se desarrolló en dos fases complementarias. La fase inicial surgi
 
 ## 📂Estructura del proyecto:
   -->📁 EDAs : Contiene 6 archivos .ipynb correspondiente al análisis EDA
-                de las bases de datos del proyecto
+                de las bases de datos del proyecto.
+                
   -->📁 Informes_primerafase: Informes beta, correspondientes a la primera
                 fase del proyecto, que incluye únicamente la base de datos
                 de microplásticos.
+                
   -->📁 files : Bases de datos durante en proceso, subdivididas en clean y
                 y transition_files.
+                
   -->📄 Proyecto_Microplasticos_Corales.pbix --> Este archivo contiene un
-                informe interactivo desarrollado en Power BI
+                informe interactivo desarrollado en Power BI.
+                
   -->📄 Referencias.txt
   
 ## Proyecto:
