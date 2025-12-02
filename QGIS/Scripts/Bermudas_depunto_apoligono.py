@@ -1,3 +1,5 @@
+#Importaciones de módulos necesarios
+
 from qgis.core import (
     QgsProject, QgsVectorLayer, QgsFeature, QgsGeometry, QgsPointXY,
     QgsFields, QgsField, QgsVectorFileWriter, QgsWkbTypes
@@ -38,7 +40,7 @@ points_sorted = sorted(points, key=lambda p: math.atan2(p.y() - cy, p.x() - cx))
 # Cerrar polígono
 ring = points_sorted + [points_sorted[0]]
 
-# Crear capa de salida (shapefile)
+# Crear capa de salida, nuestra futura capa de poligono (shapefile)
 out_path = r"Tu ruta de salida"
 
 fields = QgsFields()
@@ -62,3 +64,5 @@ writer.addFeature(feat)
 del writer
 
 print(f"Polígono creado en: {out_path}")
+
+#¡LISTO! Espero qu te sirva - Isabel Mañero
