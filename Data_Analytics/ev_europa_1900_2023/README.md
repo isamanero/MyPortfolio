@@ -11,6 +11,7 @@ información geográfica, con el objetivo de generar representaciones precisas y
 nivel continental.
 
 ## 🎯 Objetivo
+
 Analizar y comparar la evolución de la esperanza de vida en Europa entre 1900 y 2023.
 
 Se destacan años clave: 1900, 1918, 1950, 1975, 2000, 2023
@@ -96,7 +97,9 @@ ev_europa_1900_2023/
 ## 🏆 Resultado
 
 🔸Mapas comparativos por año
+
 🔸Visualización del impacto histórico en la esperanza de vida
+
 🔸Base para análisis espacial y exploración en QGIS
 
-📌 Realizado por Isabel Mañero (2026)
+## 📌 Realizado por Isabel Mañero (2026)
