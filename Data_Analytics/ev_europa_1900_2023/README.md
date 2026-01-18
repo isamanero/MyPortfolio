@@ -34,7 +34,7 @@ Variable principal: esperanza de vida al nacer
 Librerías: pandas, geopandas
 
 Procesos principales: Carga y limpieza del CSV, filtrado de países europeos, selección de años clave, exportación de CSVs limpios,unión con
-shapefile global (CNTR_RG_20M_2024_4326.shp)y generación del shapefile final europeo.
+shapefile global (CNTR_RG_20M_2024_4326.shp) y generación del shapefile final europeo.
 
 ---
 ## 🗺 Mapas en QGIS
