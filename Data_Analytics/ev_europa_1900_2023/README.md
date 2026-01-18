@@ -83,9 +83,13 @@ Abre QGIS y carga la capa europa_life_expectancy.shp
 
 ## 📂 Organización de archivos
 ev_europa_1900_2023/
+
 ├── CNTR_RG_20M_2024_4326.shp       # Shapefile base
+
 ├── EDA_life_expectancy.ipynb        # Notebook de análisis
+
 ├── life-expectancy.csv              # CSV original
+
 └── visual_ev_europa.jpg             # Infografía final
 
 ---
