@@ -1,5 +1,5 @@
 # 🌍 Esperanza de Vida en Europa (1900–2023)
-### 🎯 Objetivo
+## 🎯 Objetivo
 Analizar y comparar la evolución de la esperanza de vida en Europa entre 1900 y 2023.
 
 Se destacan años clave: 1900, 1918, 1950, 1975, 2000, 2023
@@ -8,7 +8,8 @@ Atención especial a conflictos históricos y recuperación sanitaria
 
 Visualización mediante mapas temáticos por país
 
-📊 Fuente de datos
+---
+## 📊 Fuente de datos
 
 CSV original: life-expectancy.csv (Our World in Data)
 
@@ -16,41 +17,25 @@ Rango temporal: 1543–2023
 
 Variable principal: esperanza de vida al nacer
 
-🔗 Our World in Data – Life Expectancy
+🔗 [Our World in Data – Life Expectancy](https://ourworldindata.org/life-expectancy )
 
-🛠 Preparación y análisis en Python
+---
+## 🛠 Preparación y análisis en Python
 
 Librerías: pandas, geopandas
 
-Procesos principales:
+Procesos principales: Carga y limpieza del CSV, filtrado de países europeos, selección de años clave, exportación de CSVs limpios,unión con shapefile global (CNTR_RG_20M_2024_4326.shp)y generación del shapefile final europeo.
 
-Carga y limpieza del CSV
+---
+## 🗺 Mapas en QGIS
 
-Filtrado de países europeos
+Cada año se representa como capa independiente con una simbología graduada: 5 clases, intervalos iguales y misma rampa de color.
+Se crea una composición A4 vertical con mapas comparativos y como resultado: infografía visual_ev_europa.jpg
 
-Selección de años clave
-
-Exportación de CSVs limpios
-
-Unión con shapefile global (CNTR_RG_20M_2024_4326.shp)
-
-Generación del shapefile final europeo
-
-🗺 Mapas en QGIS
-
-Cada año como capa independiente
-
-Simbología graduada: 5 clases, intervalos iguales y misma rampa de color
-
-Composición A4 vertical con mapas comparativos
-
-Resultado: infografía visual_ev_europa.jpg
-
-💻 Cómo replicar el proyecto
+---
+## 💻 Cómo replicar el proyecto
 ✅ Requisitos
-
 Python ≥ 3.8
-
 QGIS
 
 1️⃣ Clonar el repositorio
@@ -88,7 +73,7 @@ Abre QGIS y carga la capa desde Europa_Life_Expectancy_SHP/
 
 Explora mapas por año y analiza la evolución de la esperanza de vida
 
-📂 Organización de archivos
+## 📂 Organización de archivos
 ev_europa_1900_2023/
 ├── CNTR_RG_20M_2024_4326.shp       # Shapefile base
 ├── EDA_life_expectancy.ipynb        # Notebook de análisis
@@ -98,12 +83,11 @@ ev_europa_1900_2023/
 ├── Europa_Life_Expectancy_SHP/      # Shapefiles finales
 └── visual_ev_europa.jpg             # Infografía final
 
-🏆 Resultado
+---
+## 🏆 Resultado
 
-Mapas comparativos por año
-
-Visualización del impacto histórico en la esperanza de vida
-
-Base para análisis espacial y exploración en QGIS
+🔸Mapas comparativos por año
+🔸Visualización del impacto histórico en la esperanza de vida
+🔸Base para análisis espacial y exploración en QGIS
 
 📌 Realizado por Isabel Mañero (2026)
