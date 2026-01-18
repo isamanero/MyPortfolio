@@ -1,12 +1,17 @@
 # 🌍 Esperanza de Vida en Europa (1900–2023)
+
+En este proyecto se desarrolló un análisis espacial de la esperanza de vida en Europa entre 1900 y 2023. En primer lugar, se realizó un
+Análisis Exploratorio de Datos (EDA) para depurar, estructurar y preparar los datos, garantizando su calidad y consistencia. Posteriormente,
+los datos fueron integrados con un shapefile geográfico, permitiendo la visualización espacial y la relación de atributos tabulares con
+información geográfica, con el objetivo de generar representaciones precisas y analíticamente útiles de la evolución de la esperanza de vida a
+nivel continental.
+
 ## 🎯 Objetivo
 Analizar y comparar la evolución de la esperanza de vida en Europa entre 1900 y 2023.
 
 Se destacan años clave: 1900, 1918, 1950, 1975, 2000, 2023
 
-Atención especial a conflictos históricos y recuperación sanitaria
-
-Visualización mediante mapas temáticos por país
+Se eligen estos años con atención especial a conflictos históricos y recuperación demografica
 
 ---
 ## 📊 Fuente de datos
@@ -24,7 +29,8 @@ Variable principal: esperanza de vida al nacer
 
 Librerías: pandas, geopandas
 
-Procesos principales: Carga y limpieza del CSV, filtrado de países europeos, selección de años clave, exportación de CSVs limpios,unión con shapefile global (CNTR_RG_20M_2024_4326.shp)y generación del shapefile final europeo.
+Procesos principales: Carga y limpieza del CSV, filtrado de países europeos, selección de años clave, exportación de CSVs limpios,unión con
+shapefile global (CNTR_RG_20M_2024_4326.shp)y generación del shapefile final europeo.
 
 ---
 ## 🗺 Mapas en QGIS
