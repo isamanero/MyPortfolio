@@ -57,7 +57,9 @@ Python ≥ 3.8
 2️⃣ Descarga los siguientes archivos en esa carpeta: 
 
 -📁CNTR_RG_20M_2024_4326.shp
+
 -📋EDA_life_expectancy.ipynb 
+
 -📔life-expectancy.csv
 
 
