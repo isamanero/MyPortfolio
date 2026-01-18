@@ -68,6 +68,7 @@ Python ≥ 3.8
 3️⃣ Ejecutar el notebook 📋EDA_life_expectancy.ipynb 
 
 Selecciona Run All
+
 Se generarán CSVs limpios, y nuestro CSV final (life_europa_years.csv) el shapefile final (europa_life_expectancy.shp con todos sus archivos asociados)
 
 
