@@ -19,9 +19,10 @@ Se destacan años clave: 1900, 1918, 1950, 1975, 2000, 2023
 Se eligen estos años con atención especial a conflictos históricos y recuperación demografica
 
 ---
-## 📊 Fuente de datos
+## 📊 Fuente de datos (uso exclusivamente didáctico 📁)
 
 CSV original: life-expectancy.csv (Our World in Data)
+
 SHP: Eurostat
 
 Rango temporal: 1543–2023
