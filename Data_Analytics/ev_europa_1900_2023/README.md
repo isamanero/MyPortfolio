@@ -22,6 +22,7 @@ Se eligen estos años con atención especial a conflictos históricos y recupera
 ## 📊 Fuente de datos
 
 CSV original: life-expectancy.csv (Our World in Data)
+SHP: Eurostat
 
 Rango temporal: 1543–2023
 
