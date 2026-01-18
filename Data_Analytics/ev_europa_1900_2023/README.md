@@ -47,7 +47,7 @@ Cada año se representa como capa independiente con una simbología graduada: 5 
 Se crea una composición A4 vertical con mapas comparativos y como resultado: infografía visual_ev_europa.jpg
 
 ---
-## 💻 Cómo replicar el proyecto
+## 💻 Cómo replicar el proyecto (fines exclusivamente didácticos 📁)
 
 ✅ Requisitos
 Python ≥ 3.8
