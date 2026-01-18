@@ -1,9 +1,13 @@
 # 🌍 Esperanza de Vida en Europa (1900–2023)
 
 En este proyecto se desarrolló un análisis espacial de la esperanza de vida en Europa entre 1900 y 2023. En primer lugar, se realizó un
+
 Análisis Exploratorio de Datos (EDA) para depurar, estructurar y preparar los datos, garantizando su calidad y consistencia. Posteriormente,
+
 los datos fueron integrados con un shapefile geográfico, permitiendo la visualización espacial y la relación de atributos tabulares con
+
 información geográfica, con el objetivo de generar representaciones precisas y analíticamente útiles de la evolución de la esperanza de vida a
+
 nivel continental.
 
 ## 🎯 Objetivo
