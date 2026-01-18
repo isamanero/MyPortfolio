@@ -54,6 +54,7 @@ Python ≥ 3.8
 1️⃣ Crea una carpeta local dónde trabajar
 
 
+
 2️⃣ Descarga los siguientes archivos en esa carpeta: 
 
 -📁CNTR_RG_20M_2024_4326.shp
@@ -63,10 +64,12 @@ Python ≥ 3.8
 -📔life-expectancy.csv
 
 
+
 3️⃣ Ejecutar el notebook 📋EDA_life_expectancy.ipynb 
 
 Selecciona Run All
 Se generarán CSVs limpios, y nuestro CSV final (life_europa_years.csv) el shapefile final (europa_life_expectancy.shp con todos sus archivos asociados)
+
 
 
 4️⃣ Visualización en QGIS
@@ -74,6 +77,7 @@ Se generarán CSVs limpios, y nuestro CSV final (life_europa_years.csv) el shape
 Abre QGIS y carga la capa europa_life_expectancy.shp
 
 ¡Ahora puedes practicar! 🗺️
+
 
 
 ## 📂 Organización de archivos
