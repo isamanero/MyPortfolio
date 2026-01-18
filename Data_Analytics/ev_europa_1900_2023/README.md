@@ -49,7 +49,7 @@ Se crea una composición A4 vertical con mapas comparativos y como resultado: in
 
 ✅ Requisitos
 Python ≥ 3.8
-QGIS
+ & QGIS
 
 1️⃣ Crea una carpeta local dónde trabajar
 
