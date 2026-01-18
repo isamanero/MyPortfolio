@@ -44,49 +44,30 @@ Se crea una composición A4 vertical con mapas comparativos y como resultado: in
 Python ≥ 3.8
 QGIS
 
-1️⃣ Clonar el repositorio
+1️⃣ Crea una carpeta local dónde trabajar
 
-```bash
-git clone https://github.com/isamanero/MyPortfolio.git
-cd MyPortfolio/Data_Analytics/ev_europa_1900_2023
-```
+2️⃣ Descarga los siguientes archivos en esa carpeta: 
 
-2️⃣ Instalar dependencias
-```bash
-pip install -r requirements.txt
-```
-3️⃣ Ejecutar el notebook
+-📁CNTR_RG_20M_2024_4326.shp
+-📋EDA_life_expectancy.ipynb 
+-📔life-expectancy.csv
 
-EDA_life_expectancy.ipynb
+3️⃣ Ejecutar el notebook 📋EDA_life_expectancy.ipynb 
 
 Selecciona Run All
+Se generarán CSVs limpios, y nuestro CSV final (life_europa_years.csv) el shapefile final (europa_life_expectancy.shp con todos sus archivos asociados)
 
-Se generarán CSVs limpios y el shapefile final
+4️⃣ Visualización en QGIS
 
-4️⃣ Archivos generados
+Abre QGIS y carga la capa europa_life_expectancy.shp
 
-CSVs limpios: generated_files/
-
-Shapefile final: Europa_Life_Expectancy_SHP/
-
-Incluye .shp, .shx, .dbf, .prj
-
-Listo para abrir en QGIS
-
-5️⃣ Visualización en QGIS
-
-Abre QGIS y carga la capa desde Europa_Life_Expectancy_SHP/
-
-Explora mapas por año y analiza la evolución de la esperanza de vida
+¡Ahora puedes practicar! 🗺️
 
 ## 📂 Organización de archivos
 ev_europa_1900_2023/
 ├── CNTR_RG_20M_2024_4326.shp       # Shapefile base
 ├── EDA_life_expectancy.ipynb        # Notebook de análisis
 ├── life-expectancy.csv              # CSV original
-├── requirements.txt                 # Librerías necesarias
-├── generated_files/                 # CSVs limpios
-├── Europa_Life_Expectancy_SHP/      # Shapefiles finales
 └── visual_ev_europa.jpg             # Infografía final
 
 ---
