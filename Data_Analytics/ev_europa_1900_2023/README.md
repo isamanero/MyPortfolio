@@ -1,35 +1,109 @@
-Requisitos previos
-Antes de comenzar, asegúrate de tener instalados:
-•	Python (recomendado >= 3.8)
-•	QGIS (para visualizar los shapefiles generados)
+# 🌍 Esperanza de Vida en Europa (1900–2023)
+### 🎯 Objetivo
+Analizar y comparar la evolución de la esperanza de vida en Europa entre 1900 y 2023.
 
-1️⃣ Clona el repositorio
-Abre la terminal (o Visual Studio Code con terminal integrada) y ejecuta:
+Se destacan años clave: 1900, 1918, 1950, 1975, 2000, 2023
 
-git clone https://tu-repositorio.git
-cd tu-repositorio
+Atención especial a conflictos históricos y recuperación sanitaria
 
+Visualización mediante mapas temáticos por país
 
-2️⃣ Instala las dependencias
-Ejecuta el siguiente comando para instalar todas las librerías necesarias:
+📊 Fuente de datos
 
+CSV original: life-expectancy.csv (Our World in Data)
+
+Rango temporal: 1543–2023
+
+Variable principal: esperanza de vida al nacer
+
+🔗 Our World in Data – Life Expectancy
+
+🛠 Preparación y análisis en Python
+
+Librerías: pandas, geopandas
+
+Procesos principales:
+
+Carga y limpieza del CSV
+
+Filtrado de países europeos
+
+Selección de años clave
+
+Exportación de CSVs limpios
+
+Unión con shapefile global (CNTR_RG_20M_2024_4326.shp)
+
+Generación del shapefile final europeo
+
+🗺 Mapas en QGIS
+
+Cada año como capa independiente
+
+Simbología graduada: 5 clases, intervalos iguales y misma rampa de color
+
+Composición A4 vertical con mapas comparativos
+
+Resultado: infografía visual_ev_europa.jpg
+
+💻 Cómo replicar el proyecto
+✅ Requisitos
+
+Python ≥ 3.8
+
+QGIS
+
+1️⃣ Clonar el repositorio
+
+```bash
+git clone https://github.com/isamanero/MyPortfolio.git
+cd MyPortfolio/Data_Analytics/ev_europa_1900_2023
+```
+
+2️⃣ Instalar dependencias
+```bash
 pip install -r requirements.txt
+```
+3️⃣ Ejecutar el notebook
 
-Esto instalará automáticamente paquetes como pandas, geopandas y cualquier otra dependencia utilizada en el proyecto.
+EDA_life_expectancy.ipynb
 
-3️⃣ Ejecuta el notebook
-Abre Jupyter Notebook o JupyterLab y carga el archivo:
-EDA_esperanza_de_vida.ipynb
-Selecciona Run All para ejecutar todas las celdas.
-•	Durante la ejecución, se generarán múltiples CSVs que registran los datos filtrados y transformados.
-•	También se generará la capa final de shapefile (SHP) con los datos de esperanza de vida en Europa.
+Selecciona Run All
+
+Se generarán CSVs limpios y el shapefile final
 
 4️⃣ Archivos generados
-Todos los CSV generados durante el EDA se guardan en la carpeta: generated_files
-Todos los archivos asociados al shapefile se guardan en la carpeta: europa_life_expectancy_shp
-Incluye archivos .shp, .shx, .dbf, .prj, etc.
-•	Listos para abrir directamente en QGIS y explorar mapas interactivos con la información de esperanza de vida.
 
-5️⃣ Uso en QGIS
-•	Abre QGIS y carga la capa desde la carpeta Europa_Life_Expectancy_SHP.
-•	Ahora puedes visualizar, analizar y crear mapas interpretativos de la esperanza de vida en Europa.
+CSVs limpios: generated_files/
+
+Shapefile final: Europa_Life_Expectancy_SHP/
+
+Incluye .shp, .shx, .dbf, .prj
+
+Listo para abrir en QGIS
+
+5️⃣ Visualización en QGIS
+
+Abre QGIS y carga la capa desde Europa_Life_Expectancy_SHP/
+
+Explora mapas por año y analiza la evolución de la esperanza de vida
+
+📂 Organización de archivos
+ev_europa_1900_2023/
+├── CNTR_RG_20M_2024_4326.shp       # Shapefile base
+├── EDA_life_expectancy.ipynb        # Notebook de análisis
+├── life-expectancy.csv              # CSV original
+├── requirements.txt                 # Librerías necesarias
+├── generated_files/                 # CSVs limpios
+├── Europa_Life_Expectancy_SHP/      # Shapefiles finales
+└── visual_ev_europa.jpg             # Infografía final
+
+🏆 Resultado
+
+Mapas comparativos por año
+
+Visualización del impacto histórico en la esperanza de vida
+
+Base para análisis espacial y exploración en QGIS
+
+📌 Realizado por Isabel Mañero (2026)
