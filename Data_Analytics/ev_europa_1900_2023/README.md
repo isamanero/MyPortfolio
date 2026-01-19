@@ -8,7 +8,8 @@ los datos fueron integrados con un shapefile geográfico, permitiendo la visuali
 
 información geográfica, con el objetivo de generar representaciones precisas y analíticamente útiles de la evolución de la esperanza de vida a
 
-nivel continental.
+nivel continental. Sólo se han representado países occidentales - mapa político simplificado.
+
 
 ## 🎯 Objetivo
 
