@@ -23,7 +23,7 @@ Se eligen estos años con atención especial a conflictos históricos y recupera
 
 CSV original: life-expectancy.csv (Our World in Data)
 
-SHP: Generado con QGIS --> Ver truco en achivo: mapa_mundo/truco_capa_mundo.txt
+SHP: Generado con QGIS --> Ver truco en achivo: mapa_mundo/truco_capa_mundo.pdf
 
 Rango temporal: 1543–2023
 
