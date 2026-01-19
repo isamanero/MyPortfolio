@@ -23,7 +23,7 @@ Se eligen estos años con atención especial a conflictos históricos y recupera
 
 CSV original: life-expectancy.csv (Our World in Data)
 
-SHP: Eurostat
+SHP: Generado con QGIS --> Ver truco en achivo: mapa_mundo/truco_capa_mundo.txt
 
 Rango temporal: 1543–2023
 
@@ -38,7 +38,7 @@ Librerías: pandas, geopandas
 
 Procesos principales: Carga y limpieza del CSV, filtrado de países europeos, selección de años clave, exportación de CSVs limpios,unión con
 
-shapefile global (CNTR_RG_20M_2024_4326.shp) y generación del shapefile final europeo.
+shapefile global (mapa_mundo.shp) y generación del shapefile final europeo.
 
 ---
 ## 🗺 Mapas en QGIS
@@ -60,7 +60,7 @@ Python ≥ 3.8
 
 2️⃣ Descarga los siguientes archivos en esa carpeta: 
 
--📁CNTR_RG_20M_2024_4326.shp
+-📁mapa_mundo
 
 -📋EDA_life_expectancy.ipynb 
 
@@ -87,7 +87,7 @@ Abre QGIS y carga la capa europa_life_expectancy.shp
 ## 📂 Organización de archivos
 ev_europa_1900_2023/
 
-├── CNTR_RG_20M_2024_4326.shp       # Shapefile base
+├── mapa_mundo                       # Shapefile base + truco
 
 ├── EDA_life_expectancy.ipynb        # Notebook de análisis
 
