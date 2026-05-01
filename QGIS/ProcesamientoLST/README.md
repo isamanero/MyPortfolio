@@ -14,7 +14,7 @@ Guía paso a paso para descargar, preparar y procesar la imagen satelital.
 
 Script listo para ejecutar en la consola de Python
 
-🎥 **Vídeo de ejecución (≈40s)**  
+🎥 **Vídeo (≈40s)**  
 
 Demostración rápida del funcionamiento del script en de QGIS.
 
