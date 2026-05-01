@@ -1,4 +1,4 @@
-# EN primer lugar hacemos las improtaciones de librerías necesarias:
+# En primer lugar hacemos las improtaciones de librerías necesarias:
 
 from qgis.core import *  # Núcleo de QGIS (geometría, capas, proyectos)
 from qgis.analysis import QgsRasterCalculator, QgsRasterCalculatorEntry # Motor de álgebra de mapas
