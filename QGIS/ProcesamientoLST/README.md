@@ -22,7 +22,7 @@ Demostración rápida del funcionamiento del script dentro de QGIS.
 
 ## 🛰️ Fuente de datos
 
-Las imágenes utilizadas se obtienen de Earthexplores y OSM.
+Las imágenes utilizadas se obtienen de Earthexplorer y OSM.
 
 ---
 
