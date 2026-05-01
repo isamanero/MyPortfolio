@@ -10,7 +10,7 @@ Este repositorio contiene los materiales necesarios para replicar el cálculo de
 Guía paso a paso para descargar, preparar y procesar la imagen satelital.
 
 🧠 **Script de PyQGIS**  
-Script listo para ejecutar en la consola de Python de :contentReference[oaicite:0]{index=0}.
+Script listo para ejecutar en la consola de Python, comentado y con explicaciones.
 
 🎥 **Vídeo de ejecución (≈40s)**  
 Demostración rápida del funcionamiento del script dentro de QGIS.

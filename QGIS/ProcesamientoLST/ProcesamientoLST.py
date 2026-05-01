@@ -1,6 +1,5 @@
-# ==============================================================================
-# IMPORTACIÓN DE LIBRERÍAS CORE
-# ==============================================================================
+# EN primer lugar hacemos las improtaciones de librerías necesarias:
+
 from qgis.core import *  # Núcleo de QGIS (geometría, capas, proyectos)
 from qgis.analysis import QgsRasterCalculator, QgsRasterCalculatorEntry # Motor de álgebra de mapas
 import processing        # Acceso a la "Caja de Herramientas" (GDAL, SAGA, Native)
@@ -18,9 +17,7 @@ else:
     path_celsius = os.path.join(output_dir, "LST_Temperatura_Pura.tif")
     path_vector = os.path.join(output_dir, "LST_Suavizado_Final.gpkg")
 
-    # ==========================================================================
-    # PASO 1: ÁLGEBRA DE RÁSTER (CÁLCULO FÍSICO)
-    # ==========================================================================
+    # AQUI PASAMOS A HACER LOS CÁLCULOS PARA EL RÁSTER
     # Para usar la calculadora, QGIS necesita una "entrada" (Entry) que mapee 
     # el archivo físico con una variable (ej: ras@1)
     entry = QgsRasterCalculatorEntry()
@@ -45,9 +42,7 @@ else:
     if calc.processCalculation() == 0:
         print("✅ Fase 1: Ráster Celsius creado sin filtros.")
 
-        # ======================================================================
-        # PASO 2: VECTORIZACIÓN (MODELO DE DATOS DISCRETO)
-        # ======================================================================
+        # 2: VECTORIZACIÓN
         # 'gdal:polygonize' agrupa píxeles adyacentes con el mismo valor.
         # Útil para crear "islas de calor" vectoriales.
         params_poly = {
@@ -58,9 +53,8 @@ else:
         }
         poly_result = processing.run("gdal:polygonize", params_poly)
 
-        # ======================================================================
-        # PASO 3: SUAVIZADO (CHAIKIN'S ALGORITHM)
-        # ======================================================================
+        # 3: SUAVIZADO (CHAIKIN'S ALGORITHM)
+      
         # Los vectores derivados de ráster son "escalonados" (efecto sierra).
         # 'native:smoothgeometry' añade nodos intermedios para curvar las líneas.
         params_smooth = {
@@ -71,9 +65,8 @@ else:
         smooth_result = processing.run("native:smoothgeometry", params_smooth)
         print("✅ Fase 2: Vectorización y Suavizado completados.")
 
-        # ======================================================================
-        # PASO 4: SIMBOLOGÍA DINÁMICA (GRADUADA)
-        # ======================================================================
+        # 4: SIMBOLOGÍA DINÁMICA (GRADUADA)
+     
         # Cargamos el archivo resultante al lienzo de QGIS
         vlayer = iface.addVectorLayer(path_vector, "Temperatura LST Suavizada", "ogr")
         
