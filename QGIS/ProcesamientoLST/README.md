@@ -6,10 +6,10 @@ Este repositorio contiene los materiales necesarios para replicar el cálculo de
 
 ## 📂 Contenido del repositorio
 
-📄 **PDF de instrucciones**  
+📄 **PDF de instrucciones**  --> Instrucciones.pdf
 Guía paso a paso para descargar, preparar y procesar la imagen satelital.
 
-🧠 **Script de PyQGIS**  
+🧠 **Script de PyQGIS**  --> ProcesamientoLST.py
 Script listo para ejecutar en la consola de Python de :contentReference[oaicite:0]{index=0}.
 
 🎥 **Vídeo de ejecución (≈40s)**  
