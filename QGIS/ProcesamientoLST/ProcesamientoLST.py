@@ -5,33 +5,32 @@ from qgis.analysis import QgsRasterCalculator, QgsRasterCalculatorEntry # Motor 
 import processing        # Acceso a la "Caja de Herramientas" (GDAL, SAGA, Native)
 import os                # Gestión de rutas del sistema operativo
 
-# 1. ENTORNO: Capturamos el objeto de la capa seleccionada en la leyenda
+# 1. Con esta orden nos centramos en la capa activa
 layer = iface.activeLayer()
 
-# Validación de seguridad: Evita que el script falle si no hay nada seleccionado
+# Aquí se usa un condicional, para evitar fallos en el script
 if not layer:
     print("ERROR: Selecciona la capa ráster antes de ejecutar.")
 else:
-    # Definimos rutas dinámicas usando 'os.path.join' para evitar errores de "/" o "\" entre Windows/Linux
+    # Definimos rutas dinámicas usando 'os.path.join' para evitar errores de "/" o "\" entre diferentes sistemas operativos
     output_dir = os.path.join(os.path.expanduser("~"), "Desktop")
     path_celsius = os.path.join(output_dir, "LST_Temperatura_Pura.tif")
     path_vector = os.path.join(output_dir, "LST_Suavizado_Final.gpkg")
 
     # AQUI PASAMOS A HACER LOS CÁLCULOS PARA EL RÁSTER
-    # Para usar la calculadora, QGIS necesita una "entrada" (Entry) que mapee 
+    # Para usar la calculadora, QGIS necesita una entrada a la calculadora con "entry"
     # el archivo físico con una variable (ej: ras@1)
     entry = QgsRasterCalculatorEntry()
     entry.ref = 'ras@1'      # Nombre de la variable dentro de la fórmula
     entry.raster = layer     # Puntero al objeto de la capa
-    entry.bandNumber = 1     # La banda térmica suele ser la 1 en productos procesados
+    entry.bandNumber = 1     # La banda que disponemos
     
-    # LÓGICA TÉRMICA (Landsat 8/9 C2 como ejemplo):
     # Los satélites guardan datos en DN (Digital Numbers). 
     # La fórmula $LST = (DN \times Multiplier) + Addition$ convierte DN a Kelvin/Celsius.
     # El valor -124.15 ya integra el paso de Kelvin a Celsius (-273.15).
     formula = '(ras@1 * 0.00341802) - 124.15'
     
-    # Invocamos el motor de cálculo. 
+    # Procedemos con el cálculo con todas las variables definidas
     # Necesita: fórmula, ruta, formato, extensión espacial, resolución (W/H) y las entradas.
     calc = QgsRasterCalculator(
         formula, path_celsius, 'GTiff', 
@@ -42,7 +41,7 @@ else:
     if calc.processCalculation() == 0:
         print("✅ Fase 1: Ráster Celsius creado sin filtros.")
 
-        # 2: VECTORIZACIÓN
+        # 2: AHORA PASAMOS A LA VECTORIZACIÓN DE LA IMAGEN RÁSTER
         # 'gdal:polygonize' agrupa píxeles adyacentes con el mismo valor.
         # Útil para crear "islas de calor" vectoriales.
         params_poly = {
@@ -59,13 +58,13 @@ else:
         # 'native:smoothgeometry' añade nodos intermedios para curvar las líneas.
         params_smooth = {
             'INPUT': poly_result['OUTPUT'],
-            'ITERATIONS': 3,             # A más iteraciones, más redondeado (3 es el equilibrio)
+            'ITERATIONS': 3,             # A más iteraciones, más redondeado,e el 3 da un resultado muy equilibrado
             'OUTPUT': path_vector        # Ahora sí, guardamos el resultado final en GeoPackage
         }
         smooth_result = processing.run("native:smoothgeometry", params_smooth)
         print("✅ Fase 2: Vectorización y Suavizado completados.")
 
-        # 4: SIMBOLOGÍA DINÁMICA (GRADUADA)
+        # 4: SIMBOLOGÍA DINÁMICA (GRADUADA) para catgorizar la variable en rangos/colores...
      
         # Cargamos el archivo resultante al lienzo de QGIS
         vlayer = iface.addVectorLayer(path_vector, "Temperatura LST Suavizada", "ogr")
@@ -75,7 +74,7 @@ else:
         renderer.setClassAttribute('temp_val') # Campo base para clasificar
         
         # MÉTODOS DE CLASIFICACIÓN:
-        # EqualInterval divide el rango (Max-Min) en partes iguales. 
+        # Se elige el método EqualInterval que divide el rango (Max-Min) en partes iguales. 
         # Ideal para mapas térmicos donde los saltos de temperatura son constantes.
         method = QgsClassificationEqualInterval()
         renderer.setClassificationMethod(method)
@@ -91,4 +90,4 @@ else:
         vlayer.setRenderer(renderer)
         vlayer.triggerRepaint()
         
-        print("🚀 ¡PROCESO COMPLETADO! Capa cargada al 100%.")
+        print("🚀 ¡PROCESO COMPLETADO!")
